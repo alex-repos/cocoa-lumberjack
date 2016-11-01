@@ -1,5 +1,5 @@
 {
-  "name": "cocoalumberjack",
+  "name": "cocoa-lumberjack",
   "version": "0.0.1",
   "description": "npm package for CocoaLumberjack",
   "cordova": {
@@ -10,17 +10,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/transistorsoft/CocoaLumberjack"
+    "url": "https://github.com/transistorsoft/cocoa-lumberjack"
   },
   "keywords": [
     "logging",
     "cocoa lumberjack",
     "ios"
   ],
-  "author": "Deusty LLC",
+  "author": "Transistor Software, Chris Scott (CocoaLumberjack itself Copyright (c) 2010-2016, Deusty, LLC)",
   "license": "BSD",
   "bugs": {
-    "url": "https://github.com/transistorsoft/CocoaLumberjack/issues"
+    "url": "https://github.com/transistorsoft/cocoa-lumberjack/issues"
   },
-  "homepage": "https://github.com/transistorsoft/CocoaLumberjack#README"
+  "homepage": "https://github.com/transistorsoft/cocoa-lumberjack"
 }
