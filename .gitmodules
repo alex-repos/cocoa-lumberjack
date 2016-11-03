@@ -1,3 +1,6 @@
-[submodule "CocoaLumberjack"]
-	path = CocoaLumberjack
-	url = https://git@github.com/CocoaLumberjack/CocoaLumberjack.git
+[submodule "ios/-f"]
+	path = ios/-f
+	url = https://github.com/CocoaLumberjack/CocoaLumberjack.git
+[submodule "ios/CocoaLumberjack"]
+	path = ios/CocoaLumberjack
+	url = https://github.com/CocoaLumberjack/CocoaLumberjack.git
