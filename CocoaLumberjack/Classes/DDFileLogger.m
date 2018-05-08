@@ -279,14 +279,13 @@ unsigned long long const kDDDefaultLogFilesDiskQuota   = 20 * 1024 * 1024; // 20
 - (BOOL)isLogFile:(NSString *)fileName {
     NSString *appName = [self applicationName];
 
-    // We need to add a space to the name as otherwise we could match applications that have the name prefix.
-    BOOL hasProperPrefix = [fileName hasPrefix:[appName stringByAppendingString:@" "]];
+    BOOL hasProperPrefix = [fileName hasPrefix:appName];
     BOOL hasProperSuffix = [fileName hasSuffix:@".log"];
     
     return (hasProperPrefix && hasProperSuffix);
 }
 
-// if you change formatter, then change sortedLogFileInfos method also accordingly
+//if you change formater , then  change sortedLogFileInfos method also accordingly
 - (NSDateFormatter *)logFileDateFormatter {
     NSMutableDictionary *dictionary = [[NSThread currentThread]
                                        threadDictionary];
